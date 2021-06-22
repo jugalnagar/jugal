@@ -305,8 +305,21 @@ hr {
   background-color: #730d1e;
 }
 
-/*********FAQ section ends**********/
+/*********Skills**********/
 
+.hlist { 
+  display: flex; 
+}
+.hlist li { 
+  list-style-type: none;
+  margin:1%;
+}
+
+.hlist li span{
+  max-height: 100%;
+}
+
+/*********Skills**********/
 
 hr {
   border: 1px solid #3caea3;
