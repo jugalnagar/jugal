@@ -271,39 +271,46 @@ hr {
 .education-content p{
   margin-left: 10px;
 }
+
+
 /*********Project**********/
 
 .project {
   margin-left: 10%;
   margin-right: 10%
+
 }
 
 .project-title {
-  border: 2px solid #55ebe9;
   color: #b8d5cd;
   font-size: 18px;
 }
 
-.project-title strong{
-  margin-left: 2%
+.project-border {
+  border: 2px solid #55ebe9;
 }
 
-.row .project-title {
+/*.project-title strong{
+  margin-left: 2%
+}*/
+
+/*.row .project-title {
   margin: 5%;
-}
+}*/
 
 .project-title img{
   max-width: 100%;
   max-height: 100%;
 }
 
-.project-title p{
+/*.project-title p{
   padding: 1% 1% 1% 1%;
-}
+}*/
 
 .project-title:hover {
   background-color: #730d1e;
 }
+
 
 /*********Skills**********/
 
@@ -315,9 +322,10 @@ hr {
   margin:1%;
 }
 
-.hlist li span{
-  max-height: 100%;
+.hlist li img{
+  max-height: 30%;
 }
+
 
 /*********Skills**********/
 
