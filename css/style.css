@@ -275,14 +275,20 @@ hr {
 
 /*********Project**********/
 
+.card .project{
+  margin-top: 30px;
+}
+
 .project {
   margin-left: 10%;
   margin-right: 10%
-
+}
+.project .project-title{
+  padding: 0%;
 }
 
 .project-title {
-  color: #b8d5cd;
+  color: white/*#b8d5cd*/;
   font-size: 18px;
 }
 
@@ -290,32 +296,29 @@ hr {
   border: 2px solid #55ebe9;
 }
 
-/*.project-title strong{
-  margin-left: 2%
-}*/
-
-/*.row .project-title {
-  margin: 5%;
-}*/
 
 .project-title img{
   max-width: 100%;
   max-height: 100%;
 }
 
-/*.project-title p{
-  padding: 1% 1% 1% 1%;
-}*/
-
-.project-title:hover {
-  background-color: #730d1e;
+.project-border:hover {
+  background-color: #0e2431;
 }
 
+.project-title:hover {
+  color: #0076e6;
+}
+
+.boxed-size {
+  width:30px;
+}
 
 /*********Skills**********/
 
 .hlist { 
-  display: flex; 
+  display: flex;
+  margin-left: 10%; 
 }
 .hlist li { 
   list-style-type: none;
@@ -323,9 +326,13 @@ hr {
 }
 
 .hlist li img{
-  max-height: 30%;
+  max-height: 80px;
 }
 
+.card-content .skill-title {
+  text-align: left;
+  margin-left: 10%;
+}
 
 /*********Skills**********/
 
