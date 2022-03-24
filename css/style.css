@@ -337,6 +337,25 @@ hr {
   margin-left: 10%;
 }
 
+/*********Experience**********/
+.experience-content {
+  color: #b8d5cd;
+  
+}
+.card .dis{
+  
+  font-size: 20px;
+}
+
+.experience-content span{
+  color: #0076e6;
+}
+.experience-card {
+  min-height: 100px;
+  padding: 3% 15% 1% 15%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 /*********Skills**********/
 
 hr {
